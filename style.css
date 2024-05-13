@@ -1,0 +1,241 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
+
+body{
+  max-width: 100vw;
+  min-width: 100vw;
+  height: auto;
+  font-family: Merriweather;
+  background: #13a9f5;
+  overflow-x: hidden;
+}
+
+ul{
+  list-style-type: none;
+}
+
+header{
+
+  height: 100px;
+  margin-left: -8px;
+  margin-top: -8px;
+  width: 100vw;
+  background-color: #05172e;
+  display: flexbox;
+  align-items: center;
+  align-content: center;
+}
+.ul1{
+  list-style-type: none;
+display: grid;
+grid-template-columns: repeat(5, 1fr);
+grid-template-rows: 1;
+font-size: 20px;
+}
+a{
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+.name{
+  color: white;
+  grid-row: 1;
+  grid-column: 2;
+  background-color: rgba(128, 0, 0, 0);
+  width: 250px;
+  height: 50px;
+  text-align: center;
+  align-content: center;
+  margin-left: -250px;
+  font-size: 24px;
+}
+
+.nos{
+  grid-row: 1;
+  grid-column: 4;
+  background-color: rgba(128, 0, 0, 0);
+  width: 250px;
+  height: 50px;
+  text-align: center;
+  align-content: center;
+}
+
+.local{
+  grid-row: 1;
+  grid-column: 3;
+  background-color: rgba(128, 0, 0, 0);
+  width: 250px;
+  height: 50px;
+  text-align: center;
+  align-content: center;
+}
+
+.contact{
+  grid-row: 1;
+  grid-column: 5;
+  background-color: rgb(5, 190, 5);
+  width: 250px;
+  height: 50px;
+  border-radius: 10% 10% 10% 10% / 50% 50% 50% 50%;
+  border: 3px solid rgb(0, 139, 0);
+  text-align: center;
+  align-content: center;
+  color: white;
+}
+
+
+.contact:hover {
+  transition: all 0.5s ease-in-out;
+  transform: scale(1.1);
+}
+
+.contact:not(:hover) {
+  transition: all 0.5s ease-in-out;
+  transform: scale(1);
+  animation: none;
+}
+
+.wpplogo{
+  max-width:15px;
+  max-height:15px;
+  align-content: center;
+  padding-right: 5px;
+}
+
+.mainlogo{
+  grid-column: 1;
+  grid-row: 1;
+  max-width: 65px;
+  max-height: 65px;
+  align-content: center;
+}
+
+h1{
+  font-family: arial;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.emphasis{
+  font-size: 28px;
+  font-family: Merriweather;
+  margin-bottom: -20px;
+}
+
+.mainimg{
+  max-width: 100vw;
+  max-height: 750px;
+  margin-left: -8px;
+  margin-top: -16px;
+  position: absolute;
+}
+
+.home{
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.hometxt{
+  position: absolute;
+  padding-top: 500px;
+}
+
+.bold{
+  padding: 10px;
+  text-align: left;
+  background-color: #05172ec0;
+  min-width: 992px;
+  max-height: 350;
+  clip-path: polygon(0% 0%, 100% 0%, 70% 100%, 0% 100%);
+  margin-top: -25px;
+  margin-bottom: 25px;
+
+}
+
+
+.localizacao{
+  position: absolute;
+margin-top: 734px;
+margin-left: -8px;
+font-family: arial;
+font-size: 20px;
+}
+
+.map {
+  max-width: 700px;
+  max-height: 700px;
+  height: 500px;
+  border: 1px solid black;
+  margin-left: 1202px;
+}
+
+.map img {
+  width: 100%;
+  height: 100%;
+}
+
+.loctxt{
+  background-color: #05172e;
+  font-size: 24px;
+  position: absolute;
+  margin-top: -81px;
+  margin-left: 782px;
+  padding: 10px;
+  max-width: 400px;
+  max-height: 200px;
+  text-align: right;
+  clip-path: polygon(0% 0%, 100% 0%, 100% 50%, 100% 100%, 0% 100%, 5% 50%);
+}
+
+.info{
+  padding-top: 734px;
+  font-family: Merriweather;
+  font-size: 22px;
+  max-width: 760px;
+  max-height: fit-content;
+}
+
+.serv{
+  list-style-type: none;
+  font-family: arial;
+}
+
+.redes{
+  position: absolute;
+  list-style-type: none;
+  font-family: arial;
+}
+
+aside{
+  background-color: white;
+  margin-top: 197px;
+  margin-left: -8px;
+  padding: 8px;
+  font-family: arial;
+  font-size: 18px;
+  max-width: 98vw;
+  border: 2px#000000 solid;
+}
+footer{
+  background-color: #05172e;
+  margin-left: -8px;
+  height: 250px;
+  display: flex;
+}
+
+.imgftr{
+  margin:25px ;
+  max-width: 225px;
+  max-height: 225px;
+}
+
+.alllinks{
+  color: white;
+  padding: 30px;
+  padding-left: 160px;
+  align-items: conter;
+  align-content: center;
+  columns: 3;
+  text-align: left;
+  text-decoration: underline;
+}
